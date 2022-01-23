@@ -12,12 +12,9 @@ public class Cypher {
 //        Using console terminal to stop the loop.
         System.out.println("Choose the functionality you would like to perform .. \n\t 1. Encryption. \n\t 2. Decryption. \n\t 3. Change Options \n\t 4. Exit");
 
-//        QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
-
-//        Storing the value from the terminal in a string variable
-
         String selectedChoice;
         do {
+//            Storing the value from the terminal in a string variable
             selectedChoice = bufferedReader.readLine();
                 if (selectedChoice.equals("1")) {
                     Encrypt encrypt = new Encrypt();
