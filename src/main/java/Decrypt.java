@@ -10,6 +10,11 @@ public class Decrypt {
 
     }
 
+    public Decrypt(String cipherText, int key) {
+        this.key = key;
+        this.cipherText = cipherText;
+    }
+
     public String decryptionMaster(String textInput, int key){
         for (int i = 0; i < textInput.length(); i++){
 

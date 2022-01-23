@@ -10,6 +10,11 @@ public class Encrypt {
 
     }
 
+    public Encrypt(String cipherText, int key) {
+        this.key = key;
+        this.cipherText = cipherText;
+    }
+
     public String encryptionMaster(String textInput, int key){
         for (int i = 0; i < textInput.length(); i++){
 
@@ -69,9 +74,6 @@ public class Encrypt {
         return key;
     }
 
-    public void setKey(int key) {
-        this.key = key;
-    }
 
     public String getOutputLowercase() {
         return outputLowercase;
