@@ -8,6 +8,7 @@ class EncryptTest {
     public void newEncrypt_instantiateCorrectly_true(){
         Encrypt testEncrypt = new Encrypt();
         assertEquals(true, testEncrypt instanceof Encrypt);
+
     }
 
     @Test
