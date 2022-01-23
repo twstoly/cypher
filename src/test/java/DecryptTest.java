@@ -18,7 +18,7 @@ class DecryptTest {
 
     @Test
     public void getCipherText_getsKey_3() {
-        Decrypt testDecrypt = new Decrypt("welcome",3);
+        Decrypt testDecrypt = new Decrypt("text",3);
         assertEquals(3, testDecrypt.getKey());
     }
 
