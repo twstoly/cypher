@@ -3,8 +3,10 @@ public class Decrypt {
     private int key;
     private String outputLowercase;
     private String cipherText = "";
-    private String uppercaseAlphabets = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
-    private String lowercaseAlphabets = "zyxwvutsrqponmlkjihgfedcba";
+//    private String uppercaseAlphabets = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
+    private String uppercaseAlphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//    private String lowercaseAlphabets = "zyxwvutsrqponmlkjihgfedcba";
+    private String lowercaseAlphabets = "abcdefghijklmnopqrstuvwxyz";
 
     public Decrypt() {
 
