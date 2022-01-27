@@ -3,8 +3,8 @@ public class Encrypt {
     private int key;
     private String outputLowercase;
     private String cipherText = "";
-    private final String uppercaseAlphabets = "ZYXWVUTSRQPONMLKJIHGFEDCBA";
-    private final String lowercaseAlphabets = "zyxwvutsrqponmlkjihgfedcba";
+    private final String uppercaseAlphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private final String lowercaseAlphabets = "abcdefghijklmnopqrstuvwxyz";
 
     public Encrypt() {
 
